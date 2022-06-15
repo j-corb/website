@@ -30,4 +30,13 @@ body {
     flex-direction: column;
 }
 
+.upper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-info{
+    display: flex;
+}
 

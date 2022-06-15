@@ -31,12 +31,42 @@ body {
 }
 
 .upper{
+    background-color: chartreuse;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.sub-info{
-    display: flex;
+.cards{
+    display:flex;
+    gap: 10px
 }
 
+.sub-info{
+    display: flex;
+    background-color: burlywood;
+    gap: 10px;
+}
+
+.lower {
+    background-color: fuchsia;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.author{
+    align-self: flex-end;
+    margin-top:-20px;
+}
+
+/*need to line up the header with the quote section... */

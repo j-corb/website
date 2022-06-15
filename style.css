@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center ;
+    flex: 1;
+    padding: 16px;
+}
+
+.top {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: blueviolet;
+}
+
+.top-left{
+    display: flex;
+    flex-direction: column;
+}
+
+
